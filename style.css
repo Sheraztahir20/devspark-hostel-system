@@ -6,9 +6,9 @@ body {
 }
 .navbar {
   background-color: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
   display: flex;
-  justify-content: space-between; /* logo on left, links on right */
+  justify-content: space-between; 
   align-items: center;
   padding: 15px 40px;
   position: sticky;
@@ -90,4 +90,21 @@ body {
 
 .add-to-cart:hover {
   background-color: #218838;
+}
+
+
+footer {
+  background-color: #000;     
+  color: #fff;               
+    padding: 20px 20px;           
+  display: flex;              
+  justify-content: center;   
+  align-items: center;        
+  margin: 0;
+}
+
+footer p {
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+  margin: 0; 
 }
